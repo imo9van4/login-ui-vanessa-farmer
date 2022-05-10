@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    background-image: url("2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  h2{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+  }
+  .login-box{
+    display: flex;
+    padding: 100px 100px 100px 100px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    border: black solid 5px;
+    border-radius: 20px;
+    background-image: url("1.png");
+  }
+  p{
+    padding-top: 5px;
+    text-align: center;
+  }
+  .remember{
+    text-align: center;
+  }
+  .error{
+    text-decoration: none;
+    color: white;
+  }
